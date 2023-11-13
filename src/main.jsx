@@ -13,7 +13,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       {/* <Background className="">
  
 </Background> */}
-   <div className='bg-gray-800'>
+   <div className='bg-lightgray-700'>
 <RouterProvider router={router}></RouterProvider>
     </div>
   </React.StrictMode>,

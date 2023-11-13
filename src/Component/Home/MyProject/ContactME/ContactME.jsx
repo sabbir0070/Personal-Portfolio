@@ -28,12 +28,12 @@ const ContactME = () => {
           <StyledContactForm>
             <form ref={form} onSubmit={sendEmail}>
               <label className='text-white'>Name</label>
-              <input className='text-white' type="text" name="user_name" />
+              <input className='text-white' type="text" placeholder='Enter Your Name' name="user_name" />
               <label className='text-white'>Email</label>
-              <input className='text-white' type="email" name="user_email" />
+              <input className='text-white' placeholder='Enter Your Email' type="email" name="user_email" />
               <label className='text-white'>Message</label>
-              <textarea className='text-white' name="message" />
-              <input className='text-white' type="submit" value="Send" />
+              <textarea className='text-white' placeholder='Write Here.....' name="message" />
+              <input className='text-white'  type="submit" value="Send" />
             </form>
           </StyledContactForm>
         </div>
@@ -45,8 +45,8 @@ const ContactME = () => {
           <h2 className='text-3xl py-4'>Social Networks</h2>
           <div className='flex gap-7 mt-5'>
             <Link to='https://www.facebook.com/sabbir.msa/'> <p className='bg-blue-900 w-10 h-10 rounded-full'> <FaFacebook className='w-10 text-white h-10'></FaFacebook> </p> </Link>
-            <Link > <p className='bg-green-700 w-10 h-10 rounded-full'> <FaWhatsapp className='w-10 text-white h-10'></FaWhatsapp> </p></Link>
-            <Link to='https://www.linkedin.com/in/md-shariful-alam-siddique-b39828278/'> <p className='w-10 h-10 rounded-full'> <FaLinkedinIn className='w-10 text-red-400 h-10'></FaLinkedinIn> </p></Link>
+            <Link to='https://wa.link/4hd0il' > <p className='bg-green-700 w-10 h-10 rounded-full'> <FaWhatsapp className='w-10 text-white h-10'></FaWhatsapp> </p></Link>
+            <Link to='https://www.linkedin.com/in/md-shariful-alam-siddique-025895219/'> <p className='w-10 h-10 rounded-full'> <FaLinkedinIn className='w-10 text-red-400 h-10'></FaLinkedinIn> </p></Link>
             <Link to='https://github.com/sabbir0070'> <p className='bg-black w-10 h-10 rounded-full'> <FaGithub className='w-10 text-white h-10'></FaGithub> </p></Link>
           </div>
         </div>

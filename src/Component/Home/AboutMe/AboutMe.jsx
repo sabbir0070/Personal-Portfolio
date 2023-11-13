@@ -1,14 +1,14 @@
 import React from 'react';
-import profile from '../../../assets/Profile/crop.jpg'
+import profile from '../../../assets/Profile/profile .jpg'
 const AboutMe = () => {
   return (
    <div id='about'>
 <h2 className='text-center text-4xl font-bold text-white'>About Me</h2>
- <div  className='w-full h-full  md:h-[590px]   container py-2 px-3 lg:px-4 lg:py-4 mx-auto my-20  lg:flex  gap-4 md:flex items-center'>
+ <div  className='w-full h-full  md:h-[590px]   container py-2 px-3 lg:py-4 mx-auto my-20  lg:flex  gap-4 md:flex items-center'>
       <div className='px-5 w-full h-full lg:w-1/2 md:w-1/2'>
-<img src={profile} className='rounded-xl w-full h-full' alt="" />
+<img src={profile} className='rounded-xl w-auto h-full' alt="" />
 </div>
-<div className=' px-5 bg-base-300 hover:text-white snap-y mx-auto w-full h-full lg:w-1/2 md:w-1/2 overflow-hidden'>
+<div className=' px-5 bg-base-200 text-white snap-y mx-auto w-full h-full lg:w-1/2 md:w-1/2 overflow-hidden'>
 <p className='my-5 snap-y h-full w-full mx-auto text-lg sans-serif '>
 Hello, I'm Shariful Alam Siddique,
  a passionate and dedicated <span className='text-orange-800 text-xl'> frontend web developer </span>.

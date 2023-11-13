@@ -18,9 +18,9 @@ const Navbarr = () => {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1  font-normal"
+        className="p-1  font-normal hover:bg-orange-900 rounded px-6 py-2"
       >
-        <a href="#home" className="flex items-center text-lg font-bold  text-white">
+        <a href="#home" className="flex items-center text-lg font-bold   text-white">
           Home
         </a>
       </Typography>
@@ -28,7 +28,7 @@ const Navbarr = () => {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-normal"
+        className="p-1 font-normal hover:bg-orange-900 rounded px-6 py-2"
       >
         <a href="#about" className="flex items-center text-lg font-bold  text-white">
         About
@@ -38,7 +38,7 @@ const Navbarr = () => {
         as="li"
         variant="small"
         color="red"
-        className="p-1 font-normal text-[#eceff1]"
+        className="p-1 font-normal text-[#eceff1] hover:bg-orange-900 rounded px-6 py-2"
       >
         <a href="#skills" className="flex text-lg font-bold items-center text-[#eceff1]">
           Skills
@@ -48,7 +48,7 @@ const Navbarr = () => {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-normal"
+        className="p-1 font-normal hover:bg-orange-900 rounded px-6 py-2"
       >
         <a href="#project" className="flex text-lg font-bold  text-white items-center">
           Projects
@@ -58,7 +58,7 @@ const Navbarr = () => {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-normal"
+        className="p-1 font-normal hover:bg-orange-900 rounded px-6 py-2"
       >
         <a href="#contact" className="flex text-lg font-bold  text-white items-center">
         Contact

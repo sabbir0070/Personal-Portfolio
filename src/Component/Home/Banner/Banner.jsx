@@ -1,6 +1,6 @@
 import { Avatar, Button } from '@material-tailwind/react';
 import React from 'react';
-import profile from '../../../assets/Profile/crop.jpg'
+import profile from '../../../assets/Profile/profile .jpg'
 import Resume from '../../../assets/Resume/Resume.pdf'
 import { Typewriter, useTypewriter } from 'react-simple-typewriter'
 import Aos from 'aos';
@@ -42,10 +42,10 @@ const Banner = () => {
         <h2 className=' text-5xl text-white'>Hi! I'm</h2>
         <h3 className="text-4xl text-white">Shariful Alam Siddique</h3>
         <h2 className='text-deep-orange-500 text-3xl'>{text}</h2>
-        <p className='text-lg hover:text-gray-100'>Welcome to my portfolio! I'm a passionate MERN stack web developer with expertise in HTML, CSS, JavaScript, React, Express.js, Node.js, and MongoDB. With a strong foundation in front-end development, I strive to create captivating user interfaces and seamless user experiences. I enjoy turning ideas into functional and visually appealing websites and web applications.</p>
+        <p className='text-lg text-gray-100'>Welcome to my portfolio! I'm a passionate Frontend and MERN stack web developer with expertise in HTML, CSS, JavaScript, React, Express.js, Node.js, and MongoDB. With a strong foundation in front-end development, I strive to create captivating user interfaces and seamless user experiences. I enjoy turning ideas into functional and visually appealing websites and web applications.</p>
         <div className="flex w-max  gap-4">
-          <a href="#contact"><Button color="red">Get In touch</Button></a>
-          <Button onClick={handleDownload} className='' color="green">Download Resume</Button>
+          <a href="#contact"><Button className='bg-orange-900'>Get In touch</Button></a>
+          <Button onClick={handleDownload} className='bg-orange-900'>Download Resume</Button>
         </div>
       </div>
       <div className='w-full lg:w-1/2 md:w-1/2 text-cente'>
