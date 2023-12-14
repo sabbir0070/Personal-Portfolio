@@ -3,9 +3,21 @@ import emailjs from '@emailjs/browser';
 import { styled } from 'styled-components';
 import { FaFacebook, FaGithub, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import Swal from 'sweetalert2'
+// import Swal from 'sweetalert2/dist/sweetalert2.js'
 
 const ContactME = () => {
   const form = useRef();
+
+const handleSuccess = ()=>{
+Swal.fire({
+  position: "top-center",
+  icon: "success",
+  title: "Your Message Send Successful",
+  showConfirmButton: false,
+  timer: 1500
+})
+}
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -20,6 +32,8 @@ const ContactME = () => {
         console.log(error.text);
       });
   };
+
+
   return (
     <div id='contact'>
       <h2 className='text-center pt-10 font-bold text-white text-4xl'>Contact Me</h2>
@@ -33,7 +47,7 @@ const ContactME = () => {
               <input className='text-white' placeholder='Enter Your Email' type="email" name="user_email" />
               <label className='text-white'>Message</label>
               <textarea className='text-white' placeholder='Write Here.....' name="message" />
-              <input className='text-white'  type="submit" value="Send" />
+              <input onClick={handleSuccess} className='text-white'  type="submit" value="Send" />
             </form>
           </StyledContactForm>
         </div>

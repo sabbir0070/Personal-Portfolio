@@ -68,7 +68,7 @@ const Navbarr = () => {
   );
  
   return (
-    <Navbar className="mx-auto sticky top-0  bg-purple-600  mt-2 py-2 px-4 lg:px-4 lg:py-4">
+    <Navbar className="mx-auto sticky top-0  bg-orange-900  mt-2 py-2 px-4 lg:px-4 lg:py-4">
       <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
         <Typography
           as="a"
@@ -79,7 +79,7 @@ const Navbarr = () => {
         </Typography>
         <div className="hidden lg:block">{navList}</div>
         {/* <Button color="red" size="sm" className="hidden lg:inline-block">
-          <span>Buy Now</span>
+          <span> Buy Now </span>
         </Button> */}
         <IconButton
           variant="text"
